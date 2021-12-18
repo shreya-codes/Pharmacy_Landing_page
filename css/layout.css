@@ -1,0 +1,101 @@
+.clearfix::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.header_layout{
+    background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(../img/headerBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+@media (min-width:1025px)  { 
+
+    .header_left_side{
+        float: left;
+       
+    }
+    .person_image{
+        
+        width: 483px;
+        height: 500px;
+        margin-left:70%;
+              
+    }
+}
+@media (min-width:300px)and (max-width:1024px){
+    .header_left_side{
+        display:block
+    }
+    .person_image{
+        display: none;
+    }
+}
+.header_layout{
+    background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(image.png);
+}
+
+@media screen and (min-width: 580px) {
+    .middle_benefits{
+        padding:0px;
+    }
+    .benefits_list_1 br, .benefits_list_2 br, .benefits_list_3 br{
+        display: none;
+    }
+    .benefits_detail_1{
+        font-size: 10px;
+    }
+    .benefits_title_1, .benefits_title_2, .benefits_title_3{
+        font-size: 20px;
+    }
+    button{
+        padding:2px 5px;
+    }
+    .benefits_detail1, .benefits_detail3{
+        width:60%;
+        float:left;
+    }
+    .sideImg1, .sideImg3{
+        width:30%;
+        float:right;
+        right:15%;
+
+    }
+    .benefits_detail2{
+        width:55%;
+        float:right;
+    }
+    .sideImg2{
+        width:30%;
+        float:left;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .middle_benefits{
+        padding:0px 150px 0px 150px;
+        font-size: 120%;
+    }
+    .benefits_title_1, .benefits_title_2, .benefits_title_3{
+        font-size: 25px;
+        padding:5px;
+    }
+
+    .benefits_detail{
+        width:40%;
+        float:left;
+    }
+    .sideImg1, .sideImg3{
+        width:40%;
+        float:right;
+    }
+    .benefits_detail2{
+        width:40%;
+        float:right;
+    }
+    .sideImg2{
+        width:35%;
+        float:left;
+    }
+}
